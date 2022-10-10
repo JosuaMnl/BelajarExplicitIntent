@@ -5,21 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="6dp"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
 
-    <Button
-        android:id="@+id/btn_pindah"
+    <TextView
+        android:id="@+id/tv_selamat_datang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pindah"
+        android:text="Selamat Datang"
+        android:textSize="17sp"
         android:layout_centerInParent="true"/>
 
-    <EditText
-        android:id="@+id/et_nama"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/btn_pindah"
-        android:hint="Nama"/>
-
-
+        android:text="Nama"
+        android:textStyle="bold"
+        android:layout_below="@id/tv_selamat_datang"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
